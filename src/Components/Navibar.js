@@ -10,9 +10,9 @@ export default function NaviBar() {
 				<Navbar.Toggle aria-controls="responsive-navbar-nav"/>
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="me-auto">
-						<NavLink to="/" className="m-1">Home</NavLink>
-						<NavLink to="/users" className="m-1">Users</NavLink>
-						<NavLink to="/about" className="m-1">About</NavLink>
+						<Nav.Link as={NavLink} to="/">Home</Nav.Link>
+						<Nav.Link as={NavLink} to="/users">Users</Nav.Link>
+						<Nav.Link as={NavLink} to="/about">About</Nav.Link>
 					</Nav>
 					<Nav>
 						<Button variant="primary" className="m-1">Log In</Button>
