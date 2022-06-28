@@ -1,7 +1,9 @@
 function About() {
 	return (
 		<>
-			<h1>About</h1>
+			<div className="About" style={{ "height": "600px" }} >
+				<h1>About</h1>
+			</div>
 		</>
 	);
 }
